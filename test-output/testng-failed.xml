@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="Failed suite [TSC-Test-Suite]">
+  <parameter name="clearCacheURL" value="https://imagesearch-dev.azurewebsites.net/clearcache"/>
+  <parameter name="appURL" value="https://imagesearch-dev.azurewebsites.net"/>
+  <parameter name="browserType" value="firefox"/>
+  <test name="TestTC(failed)">
+    <classes>
+      <class name="pack.Test.LoginTest">
+        <methods>
+          <include name="loginSuccess"/>
+          <include name="CloseBrower"/>
+          <include name="beforeMethod"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- pack.Test.LoginTest -->
+    </classes>
+  </test> <!-- TestTC(failed) -->
+</suite> <!-- Failed suite [TSC-Test-Suite] -->

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TSC-Test-Suite" duration-ms="28540" started-at="2017-05-11T07:11:26Z" finished-at="2017-05-11T07:11:54Z">
+    <groups>
+    </groups>
+    <test name="TestTC" duration-ms="28540" started-at="2017-05-11T07:11:26Z" finished-at="2017-05-11T07:11:54Z">
+      <class name="pack.Test.LoginTest">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String)[pri:0, instance:pack.Test.LoginTest@3bfdc050]" name="initializeTestBaseSetup" is-config="true" duration-ms="27" started-at="2017-05-11T14:11:26Z" finished-at="2017-05-11T14:11:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://imagesearch-dev.azurewebsites.net/clearcache]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:pack.Test.LoginTest@3bfdc050]" name="setUp" is-config="true" duration-ms="15400" started-at="2017-05-11T14:11:26Z" finished-at="2017-05-11T14:11:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://imagesearch-dev.azurewebsites.net]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:pack.Test.LoginTest@3bfdc050]" name="beforeMethod" is-config="true" duration-ms="221" started-at="2017-05-11T14:11:41Z" finished-at="2017-05-11T14:11:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void pack.Test.LoginTest.loginSuccess() throws java.sql.SQLException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginSuccess()[pri:0, instance:pack.Test.LoginTest@3bfdc050]" name="loginSuccess" duration-ms="11901" started-at="2017-05-11T14:11:41Z" finished-at="2017-05-11T14:11:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccess -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:pack.Test.LoginTest@3bfdc050]" name="afterMethod" is-config="true" duration-ms="518" started-at="2017-05-11T14:11:53Z" finished-at="2017-05-11T14:11:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginSuccess status=SUCCESS method=LoginTest.loginSuccess()[pri:0, instance:pack.Test.LoginTest@3bfdc050] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pack.Test.LoginTest@3bfdc050]" name="tearDown" is-config="true" duration-ms="454" started-at="2017-05-11T14:11:54Z" finished-at="2017-05-11T14:11:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="CloseBrower()[pri:0, instance:pack.Test.LoginTest@3bfdc050]" name="CloseBrower" is-config="true" duration-ms="0" started-at="2017-05-11T14:11:54Z" finished-at="2017-05-11T14:11:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrower -->
+      </class> <!-- pack.Test.LoginTest -->
+    </test> <!-- TestTC -->
+  </suite> <!-- TSC-Test-Suite -->
+</testng-results>

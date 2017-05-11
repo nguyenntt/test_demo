@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TSC-Test-Suite" verbose="2">
+<parameter name="appURL" value="https://imagesearch-dev.azurewebsites.net" />
+<parameter name="browserType" value="firefox" />
+<parameter name="clearCacheURL"
+		value="https://imagesearch-dev.azurewebsites.net/clearcache" />
+
+    <test name="TestTC">
+        <classes>
+        <class name="pack.Test.LoginTest"> </class> 
+        </classes>
+    </test>
+</suite>
